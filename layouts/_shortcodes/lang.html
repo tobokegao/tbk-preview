@@ -1,4 +1,0 @@
-{{- $l := .Get 0 -}}
-<div data-l="{{ $l }}" lang="{{ $l }}">
-{{ .Inner | .Page.RenderString (dict "display" "block") }}
-</div>
